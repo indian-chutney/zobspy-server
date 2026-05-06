@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Static & media (optional – depends on your setup)
+staticfiles/
+media/
+
+# Environment variables
+.env
+.env.*
+
+# Migrations (optional: keep if you want to track them)
+# **/migrations/*
+# !**/migrations/__init__.py
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+
+# Jupyter (if used)
+.ipynb_checkpoints/
+
+# Node (if you add frontend)
+node_modules/
+
+# Misc
+*.bak
+*.tmp
